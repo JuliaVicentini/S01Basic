@@ -1,0 +1,10 @@
+10 RANDOMIZE TIMER
+20 n = INT(RND * 10) + 1 
+30 PRINT "Numero gerado: "; n
+
+40 fatorial = 1
+50 FOR i = 1 TO n
+60     fatorial = fatorial * i
+70 NEXT i
+
+80 PRINT "O fatorial de "; n; " e: "; fatorial
